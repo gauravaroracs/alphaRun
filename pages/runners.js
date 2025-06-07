@@ -12,7 +12,7 @@ const runnersData = [
     nationImage: 'https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg',
     club: 'VfB Stuttgart',
     clubImage: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/07/VfB_Stuttgart_logo.svg/1200px-VfB_Stuttgart_logo.svg.png',
-    playerImage: '/images/ito.png', // Specific image for Ito
+    playerImage: 'https://selimdoyranli.com/cdn/fut-player-card/img/messi.png', // Specific image for Ito
     skillMoves: '4*',
     weakFoot: '4*',
     stats: { pac: 99, sho: 56, pas: 86, dri: 90, def: 94, phy: 99 },
@@ -26,7 +26,7 @@ const runnersData = [
     nationImage: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg',
     club: 'Villarreal CF',
     clubImage: 'https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Villarreal_CF_logo.svg/1200px-Villarreal_CF_logo.svg.png',
-    playerImage: '/images/goncalo_guedes.png', // Specific image for Gonçalo Guedes
+    playerImage: 'https://selimdoyranli.com/cdn/fut-player-card/img/messi.png', // Specific image for Gonçalo Guedes
     skillMoves: '4*',
     weakFoot: '4*',
     stats: { pac: 99, sho: 99, pas: 93, dri: 99, def: 44, phy: 92 },
@@ -40,7 +40,7 @@ const runnersData = [
     nationImage: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png',
     club: 'Inter Milan',
     clubImage: 'https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg',
-    playerImage: '/images/bisseck.png', // Specific image for Bisseck
+    playerImage: 'https://selimdoyranli.com/cdn/fut-player-card/img/messi.png', // Specific image for Bisseck
     skillMoves: '4*',
     weakFoot: '4*',
     stats: { pac: 93, sho: 72, pas: 89, dri: 95, def: 97, phy: 99 },

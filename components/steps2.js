@@ -19,34 +19,36 @@ const Steps2 = (props) => {
                 cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
                 commodo diam libero vitae erat.
               </p>
-              <div className="steps2-actions">
-                <button className="thq-button-animated thq-button-filled steps2-button">
-                  <span className="thq-body-small">Main action</span>
-                </button>
-              </div>
             </div>
             <div className="steps2-container3">
-              <div className="steps2-container4 thq-card">
-                <h2 className="thq-heading-2">
-                  {props.step1Title ?? (
-                    <Fragment>
-                      <span className="steps2-text29">Join Alpha Run Club</span>
-                    </Fragment>
-                  )}
-                </h2>
-                <span className="steps2-text14 thq-body-small">
-                  {props.step1Description ?? (
-                    <Fragment>
-                      <span className="steps2-text25">
-                        Become a member of our exclusive running community and
-                        connect with like-minded individuals who are passionate
-                        about running.
-                      </span>
-                    </Fragment>
-                  )}
-                </span>
-                <label className="steps2-text15 thq-heading-3">01</label>
-              </div>
+              <a
+                href="https://www.instagram.com/alpha_runclub/"
+                target="_blank"
+                rel="noreferrer noopener"
+                style={{ textDecoration: 'none', color: 'inherit', width: '100%', display: 'block' }}
+              >
+                <div className="steps2-container4 thq-card">
+                  <h2 className="thq-heading-2">
+                    {props.step1Title ?? (
+                      <Fragment>
+                        <span className="steps2-text29">Join Alpha Run Club</span>
+                      </Fragment>
+                    )}
+                  </h2>
+                  <span className="steps2-text14 thq-body-small">
+                    {props.step1Description ?? (
+                      <Fragment>
+                        <span className="steps2-text25">
+                          Become a member of our exclusive running community and
+                          connect with like-minded individuals who are passionate
+                          about running.
+                        </span>
+                      </Fragment>
+                    )}
+                  </span>
+                  <label className="steps2-text15 thq-heading-3">01</label>
+                </div>
+              </a>
               <div className="steps2-container5 thq-card">
                 <h2 className="thq-heading-2">
                   {props.step2Title ?? (
@@ -147,11 +149,6 @@ const Steps2 = (props) => {
             position: sticky;
             align-items: flex-start;
             flex-direction: column;
-          }
-          .steps2-actions {
-            gap: var(--dl-layout-space-unit);
-            display: flex;
-            align-items: flex-start;
           }
           .steps2-container3 {
             grid-area: span 1 / span 1 / span 1 / span 1;
@@ -260,10 +257,6 @@ const Steps2 = (props) => {
             .steps2-section-header {
               position: static;
               margin-bottom: var(--dl-layout-space-twounits);
-            }
-            .steps2-actions {
-              width: 100%;
-              align-self: flex-start;
             }
             .steps2-container4 {
               width: 100%;

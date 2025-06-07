@@ -296,15 +296,15 @@ Features24.defaultProps = {
   feature3Description: undefined,
   feature3Title: undefined,
   feature3ImgSrc:
-    'https://images.unsplash.com/photo-1432821596592-e2c18b78144f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxMnw&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczPYUKdsvv80qkdPYHZQ6nG84oinIkdMnGHpFIKFNADcusejSn3gRi5yI59sD572IQUcJR8Vdx1tXL7_8e7adl0_r7yNbqywfnx2aGlpvpVhTq-o4QJ-QiGNNxDjXX3gkBFSp9oYWGHmUfBlDKe6iRGE9Q=w1452-h968-s-no-gm?authuser=0',
   feature1ImgSrc:
-    'https://images.unsplash.com/photo-1733947491912-3e3fa47100bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxM3w&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczPYUKdsvv80qkdPYHZQ6nG84oinIkdMnGHpFIKFNADcusejSn3gRi5yI59sD572IQUcJR8Vdx1tXL7_8e7adl0_r7yNbqywfnx2aGlpvpVhTq-o4QJ-QiGNNxDjXX3gkBFSp9oYWGHmUfBlDKe6iRGE9Q=w1452-h968-s-no-gm?authuser=0',
   feature2Description: undefined,
   feature1Title: undefined,
   feature3ImgAlt: 'Group of runners high-fiving after a race',
   feature1Description: undefined,
   feature2ImgSrc:
-    'https://images.unsplash.com/photo-1496850166241-707a288195fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxM3w&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczPYUKdsvv80qkdPYHZQ6nG84oinIkdMnGHpFIKFNADcusejSn3gRi5yI59sD572IQUcJR8Vdx1tXL7_8e7adl0_r7yNbqywfnx2aGlpvpVhTq-o4QJ-QiGNNxDjXX3gkBFSp9oYWGHmUfBlDKe6iRGE9Q=w1452-h968-s-no-gm?authuser=0',
   feature2ImgAlt: 'Close-up of running shoes on a track',
   feature2Title: undefined,
 }

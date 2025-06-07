@@ -14,6 +14,7 @@ const Navbar8 = (props) => {
             alt={props.logoAlt}
             src={props.logoSrc}
             className="navbar8-image1"
+            style={{ width: '50px', height: '50px' }}
           />
           <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
             <nav className="navbar8-links1">
@@ -76,7 +77,12 @@ const Navbar8 = (props) => {
               </div>
             </nav>
             <div className="navbar8-buttons1">
-              <button className="navbar8-action11 thq-button-animated thq-button-filled">
+              <a
+                href="https://www.instagram.com/alpha_runclub/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="navbar8-action11 thq-button-animated thq-button-filled"
+              >
                 <span>
                   {props.action1 ?? (
                     <Fragment>
@@ -84,8 +90,13 @@ const Navbar8 = (props) => {
                     </Fragment>
                   )}
                 </span>
-              </button>
-              <button className="navbar8-action21 thq-button-outline thq-button-animated">
+              </a>
+              <a
+                href="https://www.instagram.com/alpha_runclub/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="navbar8-action21 thq-button-outline thq-button-animated"
+              >
                 <span>
                   {props.action2 ?? (
                     <Fragment>
@@ -93,7 +104,7 @@ const Navbar8 = (props) => {
                     </Fragment>
                   )}
                 </span>
-              </button>
+              </a>
             </div>
           </div>
           <div data-thq="thq-burger-menu" className="navbar8-burger-menu">
@@ -108,6 +119,7 @@ const Navbar8 = (props) => {
                   alt={props.logoAlt}
                   src={props.logoSrc}
                   className="navbar8-logo"
+                  style={{ width: '50px', height: '50px' }}
                 />
                 <div data-thq="thq-close-menu" className="navbar8-close-menu">
                   <svg viewBox="0 0 1024 1024" className="navbar8-icon16">
@@ -297,7 +309,12 @@ const Navbar8 = (props) => {
                 </div>
               </nav>
               <div className="navbar8-buttons2">
-                <button className="thq-button-filled">
+                <a
+                  href="https://www.instagram.com/alpha_runclub/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="thq-button-filled"
+                >
                   <span>
                     {props.action1 ?? (
                       <Fragment>
@@ -305,8 +322,13 @@ const Navbar8 = (props) => {
                       </Fragment>
                     )}
                   </span>
-                </button>
-                <button className="thq-button-outline">
+                </a>
+                <a
+                  href="https://www.instagram.com/alpha_runclub/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="thq-button-outline"
+                >
                   <span>
                     {props.action2 ?? (
                       <Fragment>
@@ -314,7 +336,7 @@ const Navbar8 = (props) => {
                       </Fragment>
                     )}
                   </span>
-                </button>
+                </a>
               </div>
             </div>
             <div className="navbar8-icon-group">

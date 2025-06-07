@@ -10,41 +10,34 @@ const CTA26 = (props) => {
         <div className="thq-section-max-width">
           <div className="cta26-accent2-bg">
             <div className="cta26-accent1-bg">
-              <div className="cta26-container2">
-                <div className="cta26-content">
-                  <span className="thq-heading-2">
-                    {props.heading1 ?? (
-                      <Fragment>
-                        <span className="cta26-text4">Join Alpha Run Club</span>
-                      </Fragment>
-                    )}
-                  </span>
-                  <p className="thq-body-large">
-                    {props.content1 ?? (
-                      <Fragment>
-                        <span className="cta26-text5">
-                          Stay connected with our running community and level up
-                          your running game!
-                        </span>
-                      </Fragment>
-                    )}
-                  </p>
-                </div>
-                <div className="cta26-actions">
-                  <button
-                    type="button"
-                    className="thq-button-filled cta26-button"
-                  >
-                    <span>
-                      {props.action1 ?? (
+              <a
+                href="https://www.instagram.com/alpha_runclub/"
+                target="_blank"
+                rel="noreferrer noopener"
+                style={{ textDecoration: 'none', color: 'inherit', width: '100%' }}
+              >
+                <div className="cta26-container2">
+                  <div className="cta26-content">
+                    <h2 className="thq-heading-2">
+                      {props.heading1 ?? (
                         <Fragment>
-                          <span className="cta26-text6">Join WhatsApp</span>
+                          <span className="cta26-text4">Join Alpha Run Club</span>
                         </Fragment>
                       )}
-                    </span>
-                  </button>
+                    </h2>
+                    <p className="thq-body-large">
+                      {props.content1 ?? (
+                        <Fragment>
+                          <span className="cta26-text5">
+                            Stay connected with our running community and level up
+                            your running game!
+                          </span>
+                        </Fragment>
+                      )}
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -102,20 +95,10 @@ const CTA26 = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .cta26-actions {
-            gap: var(--dl-layout-space-oneandhalfunits);
-            flex: 1;
-            display: flex;
-            align-items: flex-start;
-            justify-content: flex-end;
-          }
           .cta26-text4 {
             display: inline-block;
           }
           .cta26-text5 {
-            display: inline-block;
-          }
-          .cta26-text6 {
             display: inline-block;
           }
           @media (max-width: 767px) {

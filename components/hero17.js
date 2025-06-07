@@ -14,7 +14,7 @@ const Hero17 = (props) => {
               {props.heading1 ?? (
                 <Fragment>
                   <span className="hero17-text7">
-                    Medium length hero headline goes here
+                    ALPHA RUN CLUB
                   </span>
                 </Fragment>
               )}
@@ -31,26 +31,6 @@ const Hero17 = (props) => {
                 </Fragment>
               )}
             </p>
-          </div>
-          <div className="hero17-actions">
-            <button className="thq-button-filled hero17-button1">
-              <span className="thq-body-small">
-                {props.action1 ?? (
-                  <Fragment>
-                    <span className="hero17-text6">Main action</span>
-                  </Fragment>
-                )}
-              </span>
-            </button>
-            <button className="thq-button-outline hero17-button2">
-              <span className="thq-body-small">
-                {props.action2 ?? (
-                  <Fragment>
-                    <span className="hero17-text5">Secondary action</span>
-                  </Fragment>
-                )}
-              </span>
-            </button>
           </div>
         </div>
         <div className="hero17-content2">
@@ -115,7 +95,7 @@ const Hero17 = (props) => {
               />
               <img
                 alt="Hero Image"
-                src="https://images.unsplash.com/photo-1534312527009-56c7016453e6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIxfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                src="https://lh3.googleusercontent.com/pw/AP1GczMyBtkvaJoioOdDHLLRV-iQrKuklplvdPysH0LjmffCGC6A6TUQAYt4TNLx5G0fN_9S50pdt1kZuSQcoNttxU0GMCgA_zWGir73IN-DVNEUhidzfK74jr22k3vbfdQmaYGxKJHxTlF0ySlha7zGBEMaRQ=w1452-h968-s-no-gm?authuser=0"
                 className="hero17-placeholder-image21 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
@@ -181,7 +161,7 @@ const Hero17 = (props) => {
               />
               <img
                 alt="Hero Image"
-                src="https://images.unsplash.com/photo-1568214379698-8aeb8c6c6ac8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxncmFmaWN8ZW58MHx8fHwxNzE1Nzk0OTk5fDA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                src="https://lh3.googleusercontent.com/pw/AP1GczMyBtkvaJoioOdDHLLRV-iQrKuklplvdPysH0LjmffCGC6A6TUQAYt4TNLx5G0fN_9S50pdt1kZuSQcoNttxU0GMCgA_zWGir73IN-DVNEUhidzfK74jr22k3vbfdQmaYGxKJHxTlF0ySlha7zGBEMaRQ=w1452-h968-s-no-gm?authuser=0"
                 className="hero17-placeholder-image33 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
@@ -247,12 +227,6 @@ const Hero17 = (props) => {
           }
           .hero17-text2 {
             text-align: center;
-          }
-          .hero17-actions {
-            gap: var(--dl-layout-space-unit);
-            display: flex;
-            align-items: flex-start;
-            padding-top: var(--dl-layout-space-unit);
           }
           .hero17-content2 {
             gap: var(--dl-layout-space-oneandhalfunits);
@@ -404,45 +378,45 @@ const Hero17 = (props) => {
 
 Hero17.defaultProps = {
   image3Src:
-    'https://images.unsplash.com/photo-1722108926139-66ce87857ce9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxMnw&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczMqfvGIW4pvH4IHyM7kBQKxBtoIaojxQOQlaoV3uNijLR5J_omA3fJZrAWt-0MoA6B24Lu1-ljYHTsj1jDHryUoBpu3-t3zzJ3UC7ru5ym715JyItfVR_c6r2vtkmoJuA_fa9JesaMLsJcFCHl8v-BLBg=w645-h968-s-no-gm?authuser=0',
   image8Alt: 'Hero Image',
   image2Src:
-    'https://images.unsplash.com/photo-1484734278752-212d8c88a568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxMnw&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczPVzbyFAZudMiDna2Z5RO1awYAKbeIEFIGxZxMwTECC3MQf-wOPjGXozCKdBZVe9CdMMA_66C-1NjUrK4Bkk6HskxxcTzswrKqdvs5a251o4c7aZl3kjPw-acACsAwpHgZfkPacTLrSIodM1Cgij7eSnw=w1291-h968-s-no-gm?authuser=0',
   image6Alt: 'Hero Image',
   image11Src:
-    'https://images.unsplash.com/photo-1499871435582-a1d4ff236842?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxM3w&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczMqfvGIW4pvH4IHyM7kBQKxBtoIaojxQOQlaoV3uNijLR5J_omA3fJZrAWt-0MoA6B24Lu1-ljYHTsj1jDHryUoBpu3-t3zzJ3UC7ru5ym715JyItfVR_c6r2vtkmoJuA_fa9JesaMLsJcFCHl8v-BLBg=w645-h968-s-no-gm?authuser=0',
   image5Alt: 'Hero Image',
   image1Alt: 'Hero Image',
   image7Src:
-    'https://images.unsplash.com/photo-1632540118353-dccde2115d2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxM3w&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczMrqAuOqcF0rL7hNA5X2HFVCvuA1sy67VdgmQMLVs_KE4wpA9uGQPrU7wmlr8qiYrJq-AiiZFHFDp-IlV025MhCBesCLGhZECdyAAc1Z-odHCTnaFgktkD20GlvurEUdWc1yhkMi1jNNr_C6h0qfpAlmg=w726-h968-s-no-gm?authuser=0',
   image7Alt: 'Hero Image',
   image12Alt: 'Hero Image',
   image2Alt: 'Hero Image',
   image6Src:
-    'https://images.unsplash.com/photo-1594551597219-b6b6e78d582a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxM3w&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczNeEMVtxCbYY_TBzcJ5gD2ZoIp4rtNX92V2DtS4ve4cRXlSIZ5IFWuzZXpNfBxaCZidFd4IN4RwJreaLz-T9Hb1OgmSdNDmVJZrZYcv1XzeA4BkbTMBUv0vNjsNx2l-ZHPGovQpHM97K8YXsz0QVYlEuw=w645-h968-s-no-gm?authuser=0',
   image12Src:
-    'https://images.unsplash.com/photo-1622014402888-e78d0fd790d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxNHw&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczMqfvGIW4pvH4IHyM7kBQKxBtoIaojxQOQlaoV3uNijLR5J_omA3fJZrAWt-0MoA6B24Lu1-ljYHTsj1jDHryUoBpu3-t3zzJ3UC7ru5ym715JyItfVR_c6r2vtkmoJuA_fa9JesaMLsJcFCHl8v-BLBg=w645-h968-s-no-gm?authuser=0',
   image3Alt: 'Hero Image',
   image9Src:
-    'https://images.unsplash.com/photo-1581952373352-04e5e7889a99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxNHw&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczMrqAuOqcF0rL7hNA5X2HFVCvuA1sy67VdgmQMLVs_KE4wpA9uGQPrU7wmlr8qiYrJq-AiiZFHFDp-IlV025MhCBesCLGhZECdyAAc1Z-odHCTnaFgktkD20GlvurEUdWc1yhkMi1jNNr_C6h0qfpAlmg=w726-h968-s-no-gm?authuser=0',
   image11Alt: 'Hero Image',
   action2: undefined,
   action1: undefined,
   image8Src:
-    'https://images.unsplash.com/photo-1731839329389-906c44fa1328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxNHw&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczNeEMVtxCbYY_TBzcJ5gD2ZoIp4rtNX92V2DtS4ve4cRXlSIZ5IFWuzZXpNfBxaCZidFd4IN4RwJreaLz-T9Hb1OgmSdNDmVJZrZYcv1XzeA4BkbTMBUv0vNjsNx2l-ZHPGovQpHM97K8YXsz0QVYlEuw=w645-h968-s-no-gm?authuser=0',
   image5Src:
-    'https://images.unsplash.com/photo-1643116774075-acc00caa9a7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxNHw&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczMyBtkvaJoioOdDHLLRV-iQrKuklplvdPysH0LjmffCGC6A6TUQAYt4TNLx5G0fN_9S50pdt1kZuSQcoNttxU0GMCgA_zWGir73IN-DVNEUhidzfK74jr22k3vbfdQmaYGxKJHxTlF0ySlha7zGBEMaRQ=w1452-h968-s-no-gm?authuser=0',
   image4Src:
-    'https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxNXw&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczPVzbyFAZudMiDna2Z5RO1awYAKbeIEFIGxZxMwTECC3MQf-wOPjGXozCKdBZVe9CdMMA_66C-1NjUrK4Bkk6HskxxcTzswrKqdvs5a251o4c7aZl3kjPw-acACsAwpHgZfkPacTLrSIodM1Cgij7eSnw=w1291-h968-s-no-gm?authuser=0',
   image10Alt: 'Hero Image',
   image4Alt: 'Hero Image',
   heading1: undefined,
   content1: undefined,
   image10Src:
-    'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxNXw&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczPVzbyFAZudMiDna2Z5RO1awYAKbeIEFIGxZxMwTECC3MQf-wOPjGXozCKdBZVe9CdMMA_66C-1NjUrK4Bkk6HskxxcTzswrKqdvs5a251o4c7aZl3kjPw-acACsAwpHgZfkPacTLrSIodM1Cgij7eSnw=w1291-h968-s-no-gm?authuser=0',
   image9Alt: 'Hero Image',
   image1Src:
-    'https://images.unsplash.com/photo-1483775759867-c331c3a6a721?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxNnw&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczMyBtkvaJoioOdDHLLRV-iQrKuklplvdPysH0LjmffCGC6A6TUQAYt4TNLx5G0fN_9S50pdt1kZuSQcoNttxU0GMCgA_zWGir73IN-DVNEUhidzfK74jr22k3vbfdQmaYGxKJHxTlF0ySlha7zGBEMaRQ=w1452-h968-s-no-gm?authuser=0',
 }
 
 Hero17.propTypes = {

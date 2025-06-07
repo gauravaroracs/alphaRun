@@ -303,14 +303,14 @@ Features25.defaultProps = {
   feature2Title: undefined,
   feature1Title: undefined,
   feature1ImgSrc:
-    'https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxMnw&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczPYUKdsvv80qkdPYHZQ6nG84oinIkdMnGHpFIKFNADcusejSn3gRi5yI59sD572IQUcJR8Vdx1tXL7_8e7adl0_r7yNbqywfnx2aGlpvpVhTq-o4QJ-QiGNNxDjXX3gkBFSp9oYWGHmUfBlDKe6iRGE9Q=w1452-h968-s-no-gm?authuser=0',
   feature3ImgSrc:
-    'https://images.unsplash.com/photo-1552793084-49132af00ff1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxM3w&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczPYUKdsvv80qkdPYHZQ6nG84oinIkdMnGHpFIKFNADcusejSn3gRi5yI59sD572IQUcJR8Vdx1tXL7_8e7adl0_r7yNbqywfnx2aGlpvpVhTq-o4QJ-QiGNNxDjXX3gkBFSp9oYWGHmUfBlDKe6iRGE9Q=w1452-h968-s-no-gm?authuser=0',
   feature2Description: undefined,
   feature3Title: undefined,
   feature2ImgAlt: 'Masonry photo gallery',
   feature2ImgSrc:
-    'https://images.unsplash.com/photo-1495033879967-b76910008a9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0ODE5NDIxM3w&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://lh3.googleusercontent.com/pw/AP1GczPYUKdsvv80qkdPYHZQ6nG84oinIkdMnGHpFIKFNADcusejSn3gRi5yI59sD572IQUcJR8Vdx1tXL7_8e7adl0_r7yNbqywfnx2aGlpvpVhTq-o4QJ-QiGNNxDjXX3gkBFSp9oYWGHmUfBlDKe6iRGE9Q=w1452-h968-s-no-gm?authuser=0',
 }
 
 Features25.propTypes = {

@@ -17,8 +17,8 @@ export default function MyApp({ Component, pageProps }) {
           <Navbar8 
             link1Url="/"
             link2Url="/runners"
-            logoSrc="/path/to/your/logo.png"
-            logoAlt="Alpha Run Logo"
+            logoSrc="/images/alpha_run_logo.png"
+            logoAlt="Alpha Run Club Logo"
           />
           <Component {...pageProps} />
         </GlobalProvider>

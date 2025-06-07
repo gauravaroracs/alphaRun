@@ -5,8 +5,12 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '',
-  assetPrefix: '',
+  assetPrefix: '/',
   trailingSlash: true,
+  i18n: {
+    locales: ['en'],
+    defaultLocale: 'en',
+  }
 }
 
 module.exports = nextConfig

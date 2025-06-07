@@ -12,7 +12,7 @@ export default function MyApp({ Component, pageProps }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <NextIntlProvider messages={pageProps?.messages}>
+      <NextIntlProvider messages={pageProps.messages || {}}>
         <GlobalProvider>
           <Navbar8 
             link1Url="/"

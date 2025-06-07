@@ -3,7 +3,6 @@ import Head from 'next/head'
 
 import { useTranslations } from 'next-intl'
 
-import Navbar8 from '../components/navbar8'
 import Hero17 from '../components/hero17'
 import Features24 from '../components/features24'
 import CTA26 from '../components/cta26'
@@ -22,78 +21,7 @@ const Home = (props) => {
           <title>Thankful Elaborate Caterpillar</title>
           <meta property="og:title" content="Thankful Elaborate Caterpillar" />
         </Head>
-        <Navbar8
-          page4Description={
-            <Fragment>
-              <span className="home-text100">Get in Touch with Us</span>
-            </Fragment>
-          }
-          action1={
-            <Fragment>
-              <span className="home-text101">Join WhatsApp</span>
-            </Fragment>
-          }
-          link2={
-            <Fragment>
-              <span className="home-text102">Runners</span>
-            </Fragment>
-          }
-          page1={
-            <Fragment>
-              <span className="home-text103">Home</span>
-            </Fragment>
-          }
-          link1={
-            <Fragment>
-              <span className="home-text104">Home</span>
-            </Fragment>
-          }
-          page4={
-            <Fragment>
-              <span className="home-text105">Contact</span>
-            </Fragment>
-          }
-          page2={
-            <Fragment>
-              <span className="home-text106">Runners</span>
-            </Fragment>
-          }
-          link4={
-            <Fragment>
-              <span className="home-text107">Contact</span>
-            </Fragment>
-          }
-          page1Description={
-            <Fragment>
-              <span className="home-text108">Welcome to Alpha Run Club</span>
-            </Fragment>
-          }
-          page2Description={
-            <Fragment>
-              <span className="home-text109">Meet Our Runners</span>
-            </Fragment>
-          }
-          link3={
-            <Fragment>
-              <span className="home-text110">Events</span>
-            </Fragment>
-          }
-          page3={
-            <Fragment>
-              <span className="home-text111">Events</span>
-            </Fragment>
-          }
-          page3Description={
-            <Fragment>
-              <span className="home-text112">Upcoming Events</span>
-            </Fragment>
-          }
-          action2={
-            <Fragment>
-              <span className="home-text113">Upcoming Event</span>
-            </Fragment>
-          }
-        ></Navbar8>
+        
         <Hero17
           action2={
             <Fragment>

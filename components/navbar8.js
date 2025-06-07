@@ -27,7 +27,7 @@ const Navbar8 = (props) => {
                   </Fragment>
                 )}
               </a>
-              <a href={props.link2Url} className="thq-link thq-body-small">
+              <a href="/runners" className="thq-link thq-body-small">
                 {props.link2 ?? (
                   <Fragment>
                     <span className="navbar8-text16">Runners</span>
@@ -126,7 +126,7 @@ const Navbar8 = (props) => {
                     </Fragment>
                   )}
                 </a>
-                <a href={props.link2Url} className="thq-link thq-body-small">
+                <a href="/runners" className="thq-link thq-body-small">
                   {props.link2 ?? (
                     <Fragment>
                       <span className="navbar8-text16">Runners</span>

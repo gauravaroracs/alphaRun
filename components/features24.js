@@ -292,11 +292,11 @@ const Features24 = (props) => {
 
 Features24.defaultProps = {
   feature1ImgAlt: 'Feature 1',
-  feature1ImgSrc: '',
+  feature1ImgSrc: 'https://lh3.googleusercontent.com/pw/AP1GczMxL2OwiVMuFD9JCrtno_O60crArAuobgknjYCKxysjIcl7fIXMic-B7mXLvBBFk4tt1urz0r8b80633MwQuHUaaHujY-Zn0s7xvY1ek3KAYIoSzmoGYbi07U8LAGkTjVx4yKB5ahECtNRdH0W08sGvMA=w1452-h968-s-no-gm?authuser=0',
   feature2ImgAlt: 'Feature 2',
-  feature2ImgSrc: '',
+  feature2ImgSrc: 'https://lh3.googleusercontent.com/pw/AP1GczMxL2OwiVMuFD9JCrtno_O60crArAuobgknjYCKxysjIcl7fIXMic-B7mXLvBBFk4tt1urz0r8b80633MwQuHUaaHujY-Zn0s7xvY1ek3KAYIoSzmoGYbi07U8LAGkTjVx4yKB5ahECtNRdH0W08sGvMA=w1452-h968-s-no-gm?authuser=0',
   feature3ImgAlt: 'Feature 3',
-  feature3ImgSrc: '',
+  feature3ImgSrc: 'https://lh3.googleusercontent.com/pw/AP1GczMxL2OwiVMuFD9JCrtno_O60crArAuobgknjYCKxysjIcl7fIXMic-B7mXLvBBFk4tt1urz0r8b80633MwQuHUaaHujY-Zn0s7xvY1ek3KAYIoSzmoGYbi07U8LAGkTjVx4yKB5ahECtNRdH0W08sGvMA=w1452-h968-s-no-gm?authuser=0',
 }
 
 Features24.propTypes = {

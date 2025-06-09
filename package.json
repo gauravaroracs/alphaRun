@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "export": "next build && next export",
-    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "start": "next start"
   },
   "author": "TeleportHQ",
   "license": "MIT",
@@ -17,7 +15,6 @@
     "firebase": "^11.9.0",
     "firebase-admin": "^13.4.0",
     "next": "^12.1.10",
-    "next-auth": "^4.24.11",
     "next-intl": "2.10.0",
     "prop-types": "15.7.2",
     "react": "^17.0.2",

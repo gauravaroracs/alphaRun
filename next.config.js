@@ -8,12 +8,8 @@ module.exports = {
     basePath: '',
     assetPrefix: '/',
     trailingSlash: true,
-    i18n: {
-      locales: ['en'],
-      defaultLocale: 'en',
-    },
     experimental: {
       appDir: false,
     },
     poweredByHeader: false,
-  }
+}

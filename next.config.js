@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-    output: 'export',
+const nextConfig = {
     reactStrictMode: true,
     images: {
       unoptimized: true,
@@ -8,8 +7,7 @@ module.exports = {
     basePath: '',
     assetPrefix: '/',
     trailingSlash: true,
-    experimental: {
-      appDir: false,
-    },
     poweredByHeader: false,
 }
+
+module.exports = nextConfig

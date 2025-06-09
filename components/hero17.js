@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 
 import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
-import { useTranslations } from 'next-intl'
 
 const Hero17 = (props) => {
   return (

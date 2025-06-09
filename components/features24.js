@@ -1,7 +1,6 @@
 import React, { useState, Fragment } from 'react'
 
 import PropTypes from 'prop-types'
-import { useTranslations } from 'next-intl'
 
 const Features24 = (props) => {
   const [activeTab, setActiveTab] = useState(0)
@@ -292,36 +291,21 @@ const Features24 = (props) => {
 }
 
 Features24.defaultProps = {
-  feature1ImgAlt: 'Runner stretching before a race',
-  feature3Description: undefined,
-  feature3Title: undefined,
-  feature3ImgSrc:
-    'https://lh3.googleusercontent.com/pw/AP1GczPYUKdsvv80qkdPYHZQ6nG84oinIkdMnGHpFIKFNADcusejSn3gRi5yI59sD572IQUcJR8Vdx1tXL7_8e7adl0_r7yNbqywfnx2aGlpvpVhTq-o4QJ-QiGNNxDjXX3gkBFSp9oYWGHmUfBlDKe6iRGE9Q=w1452-h968-s-no-gm?authuser=0',
-  feature1ImgSrc:
-    'https://lh3.googleusercontent.com/pw/AP1GczPYUKdsvv80qkdPYHZQ6nG84oinIkdMnGHpFIKFNADcusejSn3gRi5yI59sD572IQUcJR8Vdx1tXL7_8e7adl0_r7yNbqywfnx2aGlpvpVhTq-o4QJ-QiGNNxDjXX3gkBFSp9oYWGHmUfBlDKe6iRGE9Q=w1452-h968-s-no-gm?authuser=0',
-  feature2Description: undefined,
-  feature1Title: undefined,
-  feature3ImgAlt: 'Group of runners high-fiving after a race',
-  feature1Description: undefined,
-  feature2ImgSrc:
-    'https://lh3.googleusercontent.com/pw/AP1GczPYUKdsvv80qkdPYHZQ6nG84oinIkdMnGHpFIKFNADcusejSn3gRi5yI59sD572IQUcJR8Vdx1tXL7_8e7adl0_r7yNbqywfnx2aGlpvpVhTq-o4QJ-QiGNNxDjXX3gkBFSp9oYWGHmUfBlDKe6iRGE9Q=w1452-h968-s-no-gm?authuser=0',
-  feature2ImgAlt: 'Close-up of running shoes on a track',
-  feature2Title: undefined,
+  feature1ImgAlt: 'Feature 1',
+  feature1ImgSrc: '',
+  feature2ImgAlt: 'Feature 2',
+  feature2ImgSrc: '',
+  feature3ImgAlt: 'Feature 3',
+  feature3ImgSrc: '',
 }
 
 Features24.propTypes = {
   feature1ImgAlt: PropTypes.string,
-  feature3Description: PropTypes.element,
-  feature3Title: PropTypes.element,
-  feature3ImgSrc: PropTypes.string,
   feature1ImgSrc: PropTypes.string,
-  feature2Description: PropTypes.element,
-  feature1Title: PropTypes.element,
-  feature3ImgAlt: PropTypes.string,
-  feature1Description: PropTypes.element,
-  feature2ImgSrc: PropTypes.string,
   feature2ImgAlt: PropTypes.string,
-  feature2Title: PropTypes.element,
+  feature2ImgSrc: PropTypes.string,
+  feature3ImgAlt: PropTypes.string,
+  feature3ImgSrc: PropTypes.string,
 }
 
 export default Features24

@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react'
 import Head from 'next/head'
 
-import { useTranslations } from 'next-intl'
-
 import Hero17 from '../components/hero17'
 import Features24 from '../components/features24'
 import CTA26 from '../components/cta26'

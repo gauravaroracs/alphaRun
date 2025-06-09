@@ -1,7 +1,6 @@
 import React, { useState, Fragment } from 'react'
 
 import PropTypes from 'prop-types'
-import { useTranslations } from 'next-intl'
 
 const Navbar8 = (props) => {
   const [link5AccordionOpen, setLink5AccordionOpen] = useState(false)

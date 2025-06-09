@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
-import { useTranslations } from 'next-intl'
 
 const Steps2 = (props) => {
   return (
